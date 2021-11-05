@@ -4,6 +4,7 @@ var b;
 b = 'hello';
 var c = true; // 声明完类型 直接赋值 => 不常用
 var d = false; // 如果变量的声明和赋值是同时进行的,ts可以自动对变量类型进行检测
+// 形参 和 return 都可以设置类型
 function sum(a, b) {
     return a + b;
 }

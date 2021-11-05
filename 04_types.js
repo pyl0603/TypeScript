@@ -33,3 +33,8 @@ i = {
     gender: Gender.Male
 };
 console.log(i.gender === Gender.Male);
+// &表示且
+// let j:string & number
+var j;
+var myString = 1 | 2 | 3 | 4;
+var k;
